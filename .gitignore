@@ -1,0 +1,28 @@
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Frontend
+node_modules/
+build/
+dist/
+
+# Backend (.NET)
+bin/
+obj/
+
+# Local config
+.env
+.env.*
+appsettings.Local.json

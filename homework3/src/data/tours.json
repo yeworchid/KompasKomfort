@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "slug": "amsterdam-znakomstvo",
+    "title": "Амстердам - знакомство",
+    "country": "Нидерланды",
+    "city": "Амстердам",
+    "type": "Однодневные туры",
+    "price": "39.00 €",
+    "duration": "1 день",
+    "durationShort": "1 д.",
+    "description": "Амстердам - это органный звук, застывший над водой.",
+    "image": "https://www.kompass-komfort.de/media/cache/9/7/2/c/3/972c3df2b7ee901b7f7d0fc06f29b4108ee57350.jpeg",
+    "galleryImages": [
+      "https://www.kompass-komfort.de/media/cache/5/7/4/6/f/5746fdc26768239cdd77072e135032a17f57f95f.jpeg",
+      "https://www.kompass-komfort.de/media/cache/5/5/4/4/b/5544b9a95a405b2c40d85c43514e52a499007bfb.jpeg",
+      "https://www.kompass-komfort.de/media/cache/5/b/0/0/2/5b002864e467d1449bde8e906986855df2053be1.jpeg"
+    ],
+    "routeImages": [
+      "https://www.kompass-komfort.de/media/cache/8/6/a/c/b/86acb2c156f8c493e55e0dd9f3fc597ed3fac0f7.jpeg",
+      "https://www.kompass-komfort.de/media/cache/d/9/0/d/b/d90db61b229d1792e5c2747649f6ac024d41608b.jpeg",
+      "https://www.kompass-komfort.de/media/cache/4/9/2/a/7/492a7d0d9eb0baf47e6fcb9a15c607c066134392.jpeg"
+    ],
+    "dates": [
+      { "date": "07.12.2025", "label": "07.12.2025 - 07.12", "price": "39.00 €" },
+      { "date": "28.12.2025", "label": "28.12.2025 - 28.12", "price": "39.00 €" },
+      { "date": "29.12.2025", "label": "29.12.2025 - 29.12", "price": "39.00 €" }
+    ],
+    "departureCities": ["Дюссельдорф", "Ахен", "Бонн", "Кельн"],
+    "relatedSlugs": ["antverpen-znakomstvo", "bryugge-znakomstvo"]
+  },
+  {
+    "id": 2,
+    "slug": "antverpen-znakomstvo",
+    "title": "Антверпен - знакомство",
+    "country": "Бельгия",
+    "city": "Антверпен",
+    "type": "Однодневные туры",
+    "price": "34.99 €",
+    "duration": "1 день",
+    "durationShort": "1 д.",
+    "description": "Исторический центр, соборы и спокойная прогулка по старому городу.",
+    "image": "https://www.kompass-komfort.de/media/cache/8/3/b/6/a/83b6ab7544c3c7699152f5c393f5aba05cee2b83.jpeg",
+    "galleryImages": [
+      "https://www.kompass-komfort.de/media/cache/8/3/b/6/a/83b6ab7544c3c7699152f5c393f5aba05cee2b83.jpeg",
+      "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "routeImages": [
+      "https://www.kompass-komfort.de/media/cache/8/3/b/6/a/83b6ab7544c3c7699152f5c393f5aba05cee2b83.jpeg",
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "dates": [
+      { "date": "13.12.2025", "label": "13.12.2025 - 13.12", "price": "34.99 €" },
+      { "date": "20.12.2025", "label": "20.12.2025 - 20.12", "price": "34.99 €" }
+    ],
+    "departureCities": ["Дюссельдорф", "Эссен"],
+    "relatedSlugs": ["amsterdam-znakomstvo", "bryugge-znakomstvo"]
+  },
+  {
+    "id": 3,
+    "slug": "bryugge-znakomstvo",
+    "title": "Брюгге - знакомство",
+    "country": "Бельгия",
+    "city": "Брюгге",
+    "type": "Однодневные туры",
+    "price": "34.99 €",
+    "duration": "1 день",
+    "durationShort": "1 д.",
+    "description": "Каналы, старые площади и уютная атмосфера средневекового города.",
+    "image": "https://www.kompass-komfort.de/media/cache/f/e/3/9/0/fe39011b6b988c67ff31093377aef3d7344f5f69.jpeg",
+    "galleryImages": [
+      "https://www.kompass-komfort.de/media/cache/f/e/3/9/0/fe39011b6b988c67ff31093377aef3d7344f5f69.jpeg",
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "routeImages": [
+      "https://www.kompass-komfort.de/media/cache/f/e/3/9/0/fe39011b6b988c67ff31093377aef3d7344f5f69.jpeg",
+      "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "dates": [
+      { "date": "06.12.2025", "label": "06.12.2025 - 06.12", "price": "34.99 €" },
+      { "date": "21.12.2025", "label": "21.12.2025 - 21.12", "price": "34.99 €" }
+    ],
+    "departureCities": ["Кельн", "Бонн"],
+    "relatedSlugs": ["amsterdam-znakomstvo", "antverpen-znakomstvo"]
+  }
+]

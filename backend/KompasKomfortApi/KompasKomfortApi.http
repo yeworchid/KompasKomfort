@@ -1,0 +1,6 @@
+@KompasKomfortApi_HostAddress = http://localhost:5076
+
+GET {{KompasKomfortApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

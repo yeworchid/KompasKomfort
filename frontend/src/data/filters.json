@@ -1,0 +1,57 @@
+{
+  "title": "Однодневные туры",
+  "subtitle": "Быстрый поиск туров",
+  "subtitleNote": "(пожалуйста выберите параметры):",
+  "fields": [
+    {
+      "name": "type",
+      "label": "Тип тура",
+      "type": "select",
+      "emptyOption": "Bсе типы",
+      "options": [
+        "Однодневные туры"
+      ]
+    },
+    {
+      "name": "country",
+      "label": "выбор страны",
+      "type": "select",
+      "emptyOption": "Все страны",
+      "options": [
+        "Нидерланды",
+        "Бельгия"
+      ]
+    },
+    {
+      "name": "search",
+      "label": "выбор по названию тура",
+      "type": "text",
+      "placeholder": "задать название тура"
+    },
+    {
+      "name": "dateFrom",
+      "label": "дата от",
+      "type": "text",
+      "placeholder": "07.12.2025"
+    },
+    {
+      "name": "dateTo",
+      "label": "дата до",
+      "type": "text",
+      "placeholder": "29.12.2025"
+    },
+    {
+      "name": "city",
+      "label": "город отправления",
+      "type": "select",
+      "emptyOption": "Все",
+      "options": [
+        "Дюссельдорф",
+        "Ахен",
+        "Бонн",
+        "Кельн",
+        "Эссен"
+      ]
+    }
+  ]
+}

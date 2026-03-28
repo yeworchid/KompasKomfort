@@ -47,11 +47,11 @@ function ToursSearchSection({ filters, filterConfig, onChange, onSubmit }) {
   return (
     <>
       <div className="container">
-        <h1 className="f-30">{filterConfig.title}</h1>
+        <h1 className="f-30">Однодневные туры</h1>
       </div>
       <section className="orange p-3 text-center text-white">
-        <span className="f-24">{filterConfig.subtitle} </span>
-        <span className="f-16">{filterConfig.subtitleNote}</span>
+        <span className="f-24">Быстрый поиск туров </span>
+        <span className="f-16">(пожалуйста выберите параметры):</span>
       </section>
       <section className="search-form-wrapper other">
         <form onSubmit={onSubmit}>

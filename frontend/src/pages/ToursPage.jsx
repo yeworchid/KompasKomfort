@@ -1,9 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Breadcrumbs from '../components/common/Breadcrumbs';
 import PageLayout from '../components/common/PageLayout';
-import filterConfig from '../data/filters.json';
-import { filterTours, tours } from '../data/tours';
 import TourResultsSection from '../components/tours/TourResultsSection';
 import ToursSearchSection from '../components/tours/ToursSearchSection';
 
@@ -21,12 +19,27 @@ function getInitialFilters(searchParams) {
 function ToursPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filters, setFilters] = useState(() => getInitialFilters(searchParams));
+  const [filterConfig, setFilterConfig] = useState(null);
+  const [tours, setTours] = useState([]);
 
   useEffect(() => {
     setFilters(getInitialFilters(searchParams));
   }, [searchParams]);
 
-  const filteredTours = useMemo(() => filterTours(tours, filters), [filters]);
+  useEffect(() => {
+    fetch('http://localhost:5076/tours/filters')
+      .then((response) => response.json())
+      .then((data) => setFilterConfig(data));
+  }, []);
+
+  useEffect(() => {
+    const query = searchParams.toString();
+    const url = query ? `http://localhost:5076/tours?${query}` : 'http://localhost:5076/tours';
+
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => setTours(data));
+  }, [searchParams]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -44,6 +57,16 @@ function ToursPage() {
     setSearchParams(nextParams);
   };
 
+  if (!filterConfig) {
+    return (
+      <PageLayout>
+        <div className="container">
+          <p>Загрузка фильтров...</p>
+        </div>
+      </PageLayout>
+    );
+  }
+
   return (
     <PageLayout>
       <Breadcrumbs items={[{ label: 'Главная', to: '/' }, { label: 'Однодневные туры' }]} />
@@ -53,7 +76,7 @@ function ToursPage() {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
-      <TourResultsSection tours={filteredTours} />
+      <TourResultsSection tours={tours} />
     </PageLayout>
   );
 }

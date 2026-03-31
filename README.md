@@ -1,7 +1,7 @@
 # KompasKomfort
 
 ## Описание
-Учебный проект с frontend на React и backend на .NET API.
+Учебный проект с frontend на React и backend на ASP.NET Core Web API
 
 ## Запуск frontend
 cd frontend
